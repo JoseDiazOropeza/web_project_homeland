@@ -80,11 +80,14 @@
   cursor: pointer;
 
   width: 355px;
-  height: 48px;
 }
 
 .city__buy-button:hover {
   background-color: #0063d2;
+}
+
+.city__anchor {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 860px) {
@@ -143,9 +146,6 @@
     margin: 16px auto 0;
     height: fit-content;
   }
-  .city__anchor {
-    text-decoration: none;
-  }
 }
 
 @media screen and (max-width: 470px) {
@@ -172,10 +172,6 @@
 
 @media screen and (max-width: 320px) {
   .cites {
-    width: 100%;
-  }
-
-  .city__image {
     width: 100%;
   }
 
