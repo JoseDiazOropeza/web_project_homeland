@@ -1,0 +1,203 @@
+.cites {
+  width: 80%;
+  max-width: 984px;
+  margin: 92px auto 0;
+}
+
+.city {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+
+  margin-top: 80px;
+}
+
+.city__title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 1;
+  margin: 0;
+  align-self: end;
+}
+
+.city__artist-name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.2;
+  align-self: end;
+}
+
+.city__artist-tag {
+  font-size: 12px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  display: block;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+
+.city__image {
+  width: 100%;
+  max-width: 460px;
+  object-fit: cover;
+}
+
+.city__paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.city__paragraph {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.city__buy-button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #0278fe;
+  padding: 13px 20px;
+  border: none;
+
+  transition: 0.3s;
+  cursor: pointer;
+
+  width: 355px;
+  height: 48px;
+}
+
+.city__buy-button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 860px) {
+  .cites {
+    width: 90%;
+  }
+
+  .city__title {
+    font-size: 42px;
+  }
+
+  .city__image {
+    max-width: 340px;
+  }
+
+  .city__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cites {
+    width: 90%;
+  }
+  .city {
+    display: block;
+    margin: 36px auto 0;
+  }
+
+  .city__title {
+    max-width: 460px;
+    display: block;
+    margin: 0 auto 0;
+  }
+
+  .city__artist-name {
+    max-width: 460px;
+    display: block;
+    margin: 0 auto 0;
+  }
+
+  .city__image {
+    width: 100%;
+    display: block;
+    margin: 30px auto 0;
+    max-width: 460px;
+  }
+
+  .city__paragraphs {
+    max-width: 460px;
+    margin: 16px auto 0;
+  }
+
+  .city__buy-button {
+    display: block;
+    margin: 16px auto 0;
+    height: fit-content;
+  }
+  .city__anchor {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cites {
+    width: 100%;
+  }
+
+  .city__title {
+    width: 90%;
+  }
+
+  .city__artist-name {
+    width: 90%;
+  }
+
+  .city__paragraphs {
+    width: 90%;
+  }
+
+  .city__buy-button {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cites {
+    width: 100%;
+  }
+
+  .city__image {
+    width: 100%;
+  }
+
+  .city__title {
+    font-size: 32px;
+
+    width: 90%;
+  }
+
+  .city__artist-name {
+    width: 90%;
+  }
+
+  .city__image {
+    width: 100%;
+  }
+
+  .city__paragraphs {
+    width: 90%;
+  }
+
+  .city__buy-button {
+    font-size: 14px;
+  }
+}

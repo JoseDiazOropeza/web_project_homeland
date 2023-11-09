@@ -1,13 +1,9 @@
 @import url(./vendor/normalize.css);
-
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-}
+@import url(./vendor/fonts.css);
+@import url(./pages/home.css);
+@import url(./blocks/header.css);
+@import url(./blocks/intro.css);
+@import url(./blocks/gallery.css);
+@import url(./blocks/cities.css);
+@import url(./blocks/visitanos.css);
+@import url(./blocks/footer.css);
