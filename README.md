@@ -11,4 +11,7 @@ Entre las tecnologías que se utilizaron para dar vida a este proyecto se encuen
 - Tamaños relativos porcentuales
 - Media Queries
 
+El proyecto se puede visualizar en el siguiente enlace:
+https://josediazoropeza.github.io/web_project_homeland/index.html
+
 © José Díaz Oropeza 2023
