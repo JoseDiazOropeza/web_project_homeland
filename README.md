@@ -1,8 +1,8 @@
 # Tripleten Proyecto 3: De patria a patria
 
-Este proyecto muestra varias ciudades de origen de algunos integrantes del equipo de Tripleten.
+Este proyecto muestra varias ciudades de origen de algunos integrantes del equipo de TripleTen.
 
-El proyecto tiene un diseño responsivo, es decir, se adapta al tamaño de pantalla del sipositivo en el que sea visualizado.
+El proyecto tiene un diseño responsivo, es decir, se adapta al tamaño de pantalla del dipositivo en el que sea visualizado.
 
 Entre las tecnologías que se utilizaron para dar vida a este proyecto se encuentran:
 
