@@ -11,6 +11,7 @@
 
 .gallery__image {
   width: 100%;
+  max-width: 352px;
   object-fit: cover;
 }
 
@@ -24,10 +25,11 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
+    justify-items: center;
   }
 
   .gallery__image {
